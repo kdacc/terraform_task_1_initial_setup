@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "kdacc-resources"
+  name     = "my-kdacc-resources"
   location = "West Europe"
 }
 
